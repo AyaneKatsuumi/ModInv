@@ -21,6 +21,6 @@ int main()
 
   for(int i = 1; i < mod; i++)
   {
-    cout << i << " 's inv: " << Calculator::modinv(i, mod) << endl;
+    cout << " " << i << " 's inv: " << Calculator::modinv(i, mod) << endl;
   }
 }
